@@ -9,7 +9,7 @@ import App from './components/App';
 import movies from './reducers';
 
 const store = createStore(movies);
-console.log('store',store);
+// console.log('store',store);
 // console.log('Before State',store.getState());
 
 // store.dispatch({
